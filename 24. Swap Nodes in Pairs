@@ -3,7 +3,7 @@ Given a linked list, swap every two adjacent nodes and return its head.
 You may not modify the values in the list's nodes, only nodes itself may be changed.
 **/
 
-//画图求解递归
+//画图求解递归，双O(N)复杂度
 class Solution {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null){
